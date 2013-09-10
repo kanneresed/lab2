@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Formulaire HTML</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
-
 <body>
-
-<form action="cookie1.php" method="post"  name="form1" id="form1">
-
-    Nom D'utilisateur <label for="pseudo"></label><input name="pseudo" type="text" id="pseudo" />
-    <label for="pseudo">
-    <br><input type="submit" name="nom" value="Envoyer"/>
+<form Method="POST" Action="cookie1.php">
+<label>
+    Prénom :  <input type="text" size="20" name="prenom"><BR>
+    Nom :  <input type="text" size="20" name="nom"><BR>
+    Sexe : <input type = 'Radio' Name ='sexe' value= 'M.'>M
+            <input type = 'Radio' Name ='sexe' value= 'Mme.'>Mme<BR>
 </label>
+    <input type="submit" value="Envoyer">
 </form>
 </body>
-
 </html>
